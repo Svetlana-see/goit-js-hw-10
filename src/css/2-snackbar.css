@@ -1,0 +1,32 @@
+.container {
+    justify-content: flex-start;
+    padding: 40px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+}
+
+.form input[type='number'] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+fieldset {
+    border: 1px solid #999;
+    padding: 10px;
+}
+
+fieldset label {
+    margin-right: 20px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
